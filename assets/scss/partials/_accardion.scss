@@ -1,0 +1,34 @@
+
+.accardion{
+    max-width: 600px;
+    padding: 20px;
+    // .activ{
+    //     {
+    //         // display: block;
+    //         max-height: 600px;
+    //         transition: 4s linear;
+    //     }
+    // }
+    .accardion-item{
+        border-bottom: 1px solid black;
+        padding: 20px 0;
+        .item-header{
+            padding: 14px 6px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            cursor: pointer;
+            h1{
+                font-size: 20px;
+                font-weight: 600;
+            }
+        }
+        p{
+            color:rgb(126, 123, 123) ;
+            padding: 0 6px;
+            // overflow: hidden;
+            display: none;
+        }
+    }
+  
+}

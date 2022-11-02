@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tabmenu {
+  padding: 15px;
+  width: 400px;
+}
+.tabmenu .tab {
+  margin-bottom: 15px;
+}
+.tabmenu .tab a {
+  background: rgb(131, 125, 125);
+  padding: 10px 20px;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+}
+.tabmenu .tab .activ {
+  background: rgb(149, 84, 84);
+}
+.tabmenu .tabcontent {
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.accardion {
+  max-width: 600px;
+  padding: 20px;
+}
+.accardion .accardion-item {
+  border-bottom: 1px solid black;
+  padding: 20px 0;
+}
+.accardion .accardion-item .item-header {
+  padding: 14px 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.accardion .accardion-item .item-header h1 {
+  font-size: 20px;
+  font-weight: 600;
+}
+.accardion .accardion-item p {
+  color: rgb(126, 123, 123);
+  padding: 0 6px;
+  display: none;
+}/*# sourceMappingURL=style.css.map */

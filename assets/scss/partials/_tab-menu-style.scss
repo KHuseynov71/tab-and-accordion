@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.tabmenu{
+    padding: 15px;
+    width: 400px;
+    .tab{
+        margin-bottom: 15px;
+        a{
+            background: rgb(131, 125, 125);
+            padding: 10px 20px;
+            display: inline-block;
+            font-size: 14px;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+            margin-right: 5px;
+        }
+        .activ{
+            background: rgb(149, 84, 84);
+        }
+    }
+    .tabcontent{
+        padding: 10px;
+        border: 2px solid black;
+       
+    }
+
+}
